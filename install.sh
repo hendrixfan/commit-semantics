@@ -15,7 +15,7 @@ function make_git_alias {
 # Register aliases
 echo 'Installing git aliases'
 
-  semantic_aliases=( 'feat' 'fix' 'style' 'cleanup' 'refactor' 'perf' 'test' 'chore' 'tracking' 'docs' )
+  semantic_aliases=( 'feat' 'fix' 'stylefix' 'cleanup' 'refact' 'testfix' 'typo' )
 
   for semantic_alias in "${semantic_aliases[@]}"; do
     make_git_alias $semantic_alias

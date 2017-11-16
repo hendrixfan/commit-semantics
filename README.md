@@ -51,7 +51,7 @@ e.g.
 * **```git <type> <scope> <commit-message> [options]```** -> **```git commit [options] -m '<type>(<scope>): <commit-message>'```**
 
 e.g.
-* _**git feat** install.sh "options in alias command" a_ __->__ _git commit -a -m 'feat(install.sh): options in alias command'_
+* _**git feature** install.sh "options in alias command" a_ __->__ _git commit -a -m 'feat(install.sh): options in alias command'_
 * _**git fix** app "maximum call stack issue" p_ __->__ _git commit -p -m 'fix(app): maximum call stack issue'_
 
 **Note:** Only those options can work that precedes `-m` option in git commit, such as `-p`, `-a`, `-s`, `-v`, `-c` .
@@ -62,16 +62,12 @@ Different types of `type` are there according to make sure one can get idea abou
 
 * **feat**: Commits related to a new feature developed
 * **fix**: Commits related a bug fix
-* **style**: Commits related to styling in .css, .scss, .etc files.
+* **stylefix**: Commits related to styling in .css, .scss, .etc files.
 * **cleanup**: Commits related to changes that do not affect the logic of the code (white-space, formatting, missing
-  semi-colons, dead code removal, etc.)
-* **refactor**: Commits related to changes that neither fixes a bug nor adds a feature but is used for restructuring the code
-* **perf**: Commits related to changes that improves performance
-* **test**: Commits related to adding missing tests or fixing them
-* **chore**: Commits related to changes in build process, auxiliary tools and libraries such as documentation
-generation
-* **tracking**: Commits related to any kind of tracking which includes bug tracking, user tracking, analytics, etc.
-* **docs**: Commits related to documentation changes, such as Readme.md file
+  semi-colons, dead code removal, rubocop etc.)
+* **refact**: Commits related to changes that neither fixes a bug nor adds a feature but is used for restructuring the code
+* **testfix:**: Commits related to adding missing tests or fixing them
+* **typo**: Commits related a text typo
 
 ### Selecting `scope` 
 ____
